@@ -1,0 +1,3 @@
+* My simple humble CV
+
+  The font used can be found in https://www.ctan.org/texarchive/fonts/algolrevived/tfm

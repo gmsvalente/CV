@@ -1,0 +1,146 @@
+\documentclass[]{cv}
+\usepackage{color}
+\usepackage[utf8]{inputenc}
+
+\usepackage{algolrevived}
+
+\usepackage{ulem}
+\usepackage{url}
+
+\usepackage[top=4.5cm,left=1cm,right=1cm,bottom=1cm]{geometry}
+\usepackage[usenames,dvipsnames]{xcolor} % Required for custom colours
+\usepackage{flowfram}
+\usepackage{enumitem} % Required for modifying lists
+
+\setlist{noitemsep,nolistsep} % Remove spacing within and around lists
+
+\renewcommand{\labelitemi}{\diamond}
+
+%\renewcommand{\familydefault}{\ttdefault}
+%\setlength{\columnsep}{\baselineskip} % Set the spacing between columns
+
+
+\newlength{\LeftMainSep}
+\setlength{\LeftMainSep}{0.2\textwidth}
+\addtolength{\LeftMainSep}{1\columnsep}
+
+\userinfo{
+  \begin{flushleft}
+    \begin{flushright}
+    \Large{\color{black}\textbf{Contato}} \\
+    \end{flushright}
+
+    \vspace{1em}
+
+    \large
+    Campinas/SP\\
+    (19) 988-247-263 % Your phone number
+
+    \vspace{2.5em}
+
+    \begin{flushright}
+    \Large{\color{black}\textbf{Email}}
+    \end{flushright}
+
+    \large
+    \begin{flushright}
+      gustavomsvalente
+      \normalsize
+      @gmail.com 
+    \end{flushright}
+
+
+    \vspace{1em}
+
+    \begin{flushright}
+      \Large{\color{black}\textbf{{github.com/}}}
+      \large
+      gmsvalente
+    \end{flushright}
+    \normalsize
+
+    %% \vspace{5em}
+    %% \url{neural-works.com} % Your URL
+
+
+    \vspace{8em}
+    \begin{flushright}    
+    \Large{\color{black}\textbf{{Línguas}}} \\
+    \end{flushright}
+    \vspace{1em}
+    \large
+    Inglês avançado\\
+    \vfill % Whitespace under this block to push it up under the photo
+    \normalsize
+
+  \end{flushleft}
+}
+
+\newflowframe{0.2\textwidth}{\textheight}{0pt}{0pt}[left]
+\newstaticframe{1.5pt}{\textheight}{\LeftMainSep}{0pt}[line]
+\newflowframe{0.65\textwidth}{\textheight}{1.08\LeftMainSep}{0pt}[main]
+
+\begin{staticcontents}{1}
+  \tikz{\draw[loosely dotted,color=black,line width=1.2pt,yshift=0](0,0) -- (0,1.05\textheight)}
+\end{staticcontents}
+
+\setlength{\parindent}{0px}
+
+\pagestyle{empty} % Disable all page numbering
+
+\begin{document}
+
+\header{gustavo}{VALENTE}{}
+\userinfo
+\framebreak
+
+
+\large Formado em Física sou um curioso por ciência, matemática e
+tecnologias e tenho paixão por computadores. Tenho habilidade com
+linguagens de programação, algoritmos e possuo conhecimentos em TI
+como desenvolvimento backend e frontend, um pouco de computação em nuvem e
+programação mobile. Tenho facilidade com conceitos modernos de IA,
+machine learning e ciência de dados. Possuo também noções de hardware,
+\hiphenatino{micro-eletrônica} e microcontroladores. Estou mudando minha área de
+atuação para me tornar um \underline{fullstack dev}, procuro empresas de ponta onde possa
+utilizar meus conhecimentos e aprender novos.
+
+
+\section*{\Large{Formação}}
+
+\begin{entrylist}
+\Large{
+  \entry {2019--------}{Eng. de Controle e Automação [noturno]}{-- Unicamp}\\
+  \entry {2009-2015}{\sout{Doutorado Engenharia Elétrica}}{-- (não concluido)}\\
+  \entry {2006-2008}{Mestrado Engenharia Elétrica}{-- Unicamp}\\
+  \entry {1998-2004}{Graduação Física}{-- Unicamp}
+  }
+\end{entrylist}
+
+
+\section*{\Large{Noções + Interesses} \small{(ou softskills WIP)}}
+
+\small{$\bigoplus$ = foco atual}
+
+\vspace{1.0em}
+
+\begin{itemize}[itemsep=7pt]
+\normalsize
+\item \textbf{OS:} Linux, bash.
+\item \textbf{LINGUAGENS DE PROGRAMAÇÃO:} (LISP), $\bigoplus$Clojure, $\bigoplus$Clojurescript, C/C++, Go, Python, Java, Javascript, Fortran, asm.
+\item \textbf{BANCO DE DADOS:} Postgresql, $\bigoplus$XTDB, Datomic, Datascript.
+\item \textbf{WEB/FRAMEWORKS:} $\bigoplus$html5, $\bigoplus$css, $\bigoplus$React, $\bigoplus$Reagent, $\bigoplus$Re-frame, $\bigoplus$Material-UI.
+\item \textbf{MOBILE:} $\bigoplus$Expo, $\bigoplus$React-Native.
+\item \textbf{INFRAESTRUTURA TI:} $\bigoplus$Heroku, AWS, Firebase, docker, git.
+\item \textbf{ALGORITMOS:} estrutura de dados, algoritmos genéticos, machine learning, redes neurais, IA.
+\item \textbf{HARDWARE:} microeletrônica, microcontroladores, PIC, Arduino, RaspberryPi.
+\item \textbf{DOCUMENTAÇÃO:} {\large \TeX}.
+\end{itemize}
+
+\large
+
+\section*{Objetivos}
+Procuro uma empresa inovadora para avançar meus conhecimentos em computação e descobrir novas fronteiras.
+
+
+\end{document}
